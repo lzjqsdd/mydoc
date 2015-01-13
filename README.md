@@ -1,4 +1,4 @@
 mydoc
 =====
 
-just for my document backup
+Just for my document backup

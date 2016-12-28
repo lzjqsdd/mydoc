@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=XX-Net
+Exec=/home/lzjqsdd/APP/XX-Net-3.2.8/start
+Type=Application
+Terminal=false
+X-GNOME-Autostart-enabled=true

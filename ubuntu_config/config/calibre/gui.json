@@ -1,0 +1,192 @@
+{
+  "quick_start_guide_added": true, 
+  "show_emblems": false, 
+  "library_usage_stats": {
+    "/home/lzjqsdd/Calibre": 15
+  }, 
+  "Plugin Updater plugin:plugin updater dialog": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAD3AAAAdAAABEsAAAJyAAAA9wAAAJIAAARLAAACcgAAAAAAAAAABVY="
+  }, 
+  "book_details_splitter_horizontal_state": [
+    false, 
+    200
+  ], 
+  "jobs view column layout3": {
+    "__class__": "bytearray", 
+    "__value__": "AAAA/wAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABvkAAAAFAQEBAAAAAAAAAAAAAAAAAGT/////AAAAhAAAAAAAAAAFAAABXQAAAAEAAAAAAAAB3AAAAAEAAAAAAAABWwAAAAEAAAAAAAAA/QAAAAEAAAAAAAABaAAAAAEAAAAAAAAD6AA="
+  }, 
+  "cover_browser_splitter_horizontal_state": [
+    false, 
+    550
+  ], 
+  "grid view visible": true, 
+  "convert_bulk_dialog_geom": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAChAAAAGAAABKAAAALxAAAAoQAAADYAAASgAAAC8QAAAAAAAAAABVY="
+  }, 
+  "cover_grid_color": [
+    80, 
+    80, 
+    80
+  ], 
+  "toolbar_text": "auto", 
+  "book_details_splitter_vertical_state": [
+    true, 
+    120
+  ], 
+  "edit-open-with-programs-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAFrAAAAkgAAA8IAAAI/AAABawAAALAAAAPCAAACPwAAAAAAAAAABVY="
+  }, 
+  "book_info_dialog_layout": [
+    {
+      "__class__": "bytearray", 
+      "__value__": "AdnQywACAAAAAAFDAAAAIgAAA/4AAALDAAABQwAAAEAAAAP+AAACwwAAAAAAAAAABVY="
+    }, 
+    {
+      "__class__": "bytearray", 
+      "__value__": "AAAA/wAAAAEAAAACAAABXgAAAXAB/////wEAAAABAA=="
+    }
+  ], 
+  "previous_sort_order_BooksView": {
+    "title": true
+  }, 
+  "scheduler_dialog_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAIqAAAA4QAABUEAAAM9AAACKgAAAP8AAAVBAAADPQAAAAAAAAAABpA="
+  }, 
+  "choose-icon-theme-dialog-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAADfAAAAJQAABGIAAALfAAAA3wAAAEMAAARiAAAC3wAAAAAAAAAABVY="
+  }, 
+  "cover_grid_texture": null, 
+  "job-detail-view-dialog-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAE5AAAAYAAAA/QAAAJxAAABOQAAAH4AAAP0AAACcQAAAAAAAAAABVY="
+  }, 
+  "jobs_dialog_geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAFzAAAATAAABEcAAAKHAAABcwAAAGoAAARHAAAChwAAAAAAAAAABVY="
+  }, 
+  "custom_colors_for_color_dialog": [
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ], 
+    [
+      255, 
+      255, 
+      255, 
+      255
+    ]
+  ], 
+  "ui_style": "calibre", 
+  "preferences dialog geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAI0AAAAkAAABdUAAAN9AAACNAAAAK4AAAXVAAADfQAAAAAAAAAAB4A="
+  }, 
+  "cover_browser_splitter_vertical_state": [
+    false, 
+    300
+  ], 
+  "add-custom-news-source-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAADfAAAAOAAABGIAAAKtAAAA3wAAAFYAAARiAAACrQAAAAAAAAAABVY="
+  }, 
+  "duplicates-question-dialog-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAMJAAABZwAABNoAAAL+AAADCQAAAYUAAATaAAAC/gAAAAAAAAAABpA="
+  }, 
+  "tag_browser_splitter_horizontal_state": [
+    true, 
+    166
+  ], 
+  "toolbar_icon_size": "small"
+}

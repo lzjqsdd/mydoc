@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=files-indicator
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[zh_CN]=files-indicator
+Name=files-indicator
+Comment[zh_CN]=托盘文件快速访问
+Comment=托盘文件快速访问

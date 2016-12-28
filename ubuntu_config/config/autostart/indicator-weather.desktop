@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name = Simple Weather Indicator
+Comment = Simple Weather Indicator
+Exec = indicator-weather
+Terminal = False
+Type = Application
+Icon = /usr/share/icons/hicolor/32x32/apps/indicator-weather.png
+Categories = GNOME;Weather;
+Nodisplay = true
+Onlyshowin = Unity;GNOME;
+X-GNOME-Autostart-enabled = false
+X-Ubuntu-Gettext-domain = indicator-weather
+

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec=plank
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[zh_CN]=底部Dock栏
+Name=底部Dock栏
+Comment[zh_CN]=
+Comment=
+X-GNOME-Autostart-Delay=20

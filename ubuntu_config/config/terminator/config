@@ -1,0 +1,21 @@
+[global_config]
+  title_transmit_bg_color = "#0081c8"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.88
+    background_image = "/home/lzjqsdd/Pictures/Wallpapers/76455,105.jpg"
+    background_type = transparent
+    font = Roboto Mono for Powerline 11
+    foreground_color = "#ffc100"
+    scroll_background = False
+    use_system_font = False

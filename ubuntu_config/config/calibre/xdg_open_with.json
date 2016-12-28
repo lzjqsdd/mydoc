@@ -1,0 +1,35 @@
+{
+  "choose-open-with-program-dialog-geometry": {
+    "__class__": "bytearray", 
+    "__value__": "AdnQywACAAAAAAFOAAAAYwAAA6UAAAJ0AAABTgAAAIEAAAOlAAACdAAAAAAAAAAABVY="
+  }, 
+  "entries": {
+    "pdf": [
+      {
+        "Comment": "View pdf documents", 
+        "MimeType": [
+          "", 
+          "application/pdf", 
+          "application/octet-stream"
+        ], 
+        "uuid": "a2bc3ab8-44c6-4f53-a9b3-88cfc587824b", 
+        "Name": "Foxit Reader", 
+        "Exec": [
+          "/home/lzjqsdd/APP/foxitsoftware/foxitreader/FoxitReader.sh", 
+          "%F"
+        ], 
+        "StartupNotify": "true", 
+        "desktop_file_path": "/home/lzjqsdd/.local/share/applications/FoxitReader.desktop", 
+        "Terminal": "false", 
+        "icon_data": {
+          "__class__": "bytearray", 
+          "__value__": "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"
+        }, 
+        "Keywords": "pdf;octet-stream;", 
+        "Type": "Application", 
+        "Categories": "Application;Office;Viewer;X-Red-Hat-Base;", 
+        "Icon": "/home/lzjqsdd/.local/share/icons/hicolor/128x128/apps/FoxitReader.png"
+      }
+    ]
+  }
+}

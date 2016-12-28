@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Temps
+Comment=Tempsstartup script
+Exec=/home/lzjqsdd/Downloads/Temps-linux-x64/Temps --hidden
+StartupNotify=false
+Terminal=false

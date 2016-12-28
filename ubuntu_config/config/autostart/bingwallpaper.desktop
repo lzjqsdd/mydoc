@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=sh /usr/bin/bingwallpaper
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Bing Wallpaper
+Comment=Bing Pic of the day as wallpaper.

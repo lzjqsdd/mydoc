@@ -93,6 +93,7 @@ alias cg="cd ~/Github"
 alias cn="cd ~/Nutstore"
 alias loadnvm=". $HOME/.nvm/nvm.sh"
 alias loadanaconda='export PATH="$HOME/APP/anaconda3/bin:$PATH"'
+alias cat='pygmentize'
 
 
 #export NVM_DIR="$HOME/.nvm"
@@ -109,3 +110,4 @@ PERL_MM_OPT="INSTALL_BASE=/home/lzjqsdd/perl5"; export PERL_MM_OPT;
 
 #chmod +x ~/.vocab
 #~/.vocab
+eval $(thefuck --alias)

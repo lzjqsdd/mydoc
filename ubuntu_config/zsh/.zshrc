@@ -92,11 +92,16 @@ alias g="git"
 alias cg="cd ~/Github"
 alias cn="cd ~/Nutstore"
 alias loadnvm=". $HOME/.nvm/nvm.sh"
+<<<<<<< HEAD
 alias loadanaconda3='export PATH="$HOME/APP/anaconda3/bin:$PATH"'
 alias loadanaconda2='export PATH="$HOME/APP/anaconda2/bin:$PATH"'
 alias cat='ccat'
 alias g++='g++ -std=c++11'
 alias vim='nvim'
+=======
+alias loadanaconda='export PATH="$HOME/APP/anaconda3/bin:$PATH"'
+alias cat='pygmentize'
+>>>>>>> 496163a154ce8b2e93f2c9141d1dd80d45dfb88c
 
 
 #export NVM_DIR="$HOME/.nvm"
@@ -113,5 +118,9 @@ PERL_MM_OPT="INSTALL_BASE=/home/lzjqsdd/perl5"; export PERL_MM_OPT;
 
 #chmod +x ~/.vocab
 #~/.vocab
+<<<<<<< HEAD
 #
 echo "$(toilet -f term --gay Hello,lzjqsdd! Have a nice day!)"
+=======
+eval $(thefuck --alias)
+>>>>>>> 496163a154ce8b2e93f2c9141d1dd80d45dfb88c

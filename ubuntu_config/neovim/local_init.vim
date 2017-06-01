@@ -37,3 +37,7 @@ function TitleDet()
     endwhile
     call AddTitle()
 endfunction
+
+
+"设置相对行号
+set relativenumber

@@ -2,14 +2,28 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+# antigen by lzjqsdd
 export ZSH=/home/lzjqsdd/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-# ZSH_THEME="robbyrussell"
-# ZSH_THEME="agnoster"
+#ZSH_THEME="robbyrussell"
+#ZSH_THEME="agnoster"
 ZSH_THEME="anmol"
+#ZSH_THEME="powerlevel9k/powerlevel9k"
+export TERM="xterm-256color"
+POWERLEVEL9K_MODE='nerdfont-complete'
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=2
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status nvm node_version)
+
+POWERLEVEL9K_OS_ICON_BACKGROUND="white"
+POWERLEVEL9K_OS_ICON_FOREGROUND="blue"
+POWERLEVEL9K_DIR_HOME_FOREGROUND="white"
+POWERLEVEL9K_DIR_HOME_SUBFOLDER_FOREGROUND="white"
+POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="white"
+
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -84,11 +98,11 @@ export MANPATH="/usr/local/man:$MANPATH"
 # Example aliases
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ga="git add ."
-alias gm="git commit -m"
-alias gp="git push"
-alias gs="git status"
-alias g="git"
+#alias ga="git add ."
+#alias gc="git commit -m"
+#alias gp="git push"
+#alias gs="git status"
+#alias g="git"
 alias cg="cd ~/Github"
 alias cn="cd ~/Nutstore"
 alias loadnvm=". $HOME/.nvm/nvm.sh"
@@ -96,7 +110,10 @@ alias loadanaconda3='export PATH="$HOME/APP/anaconda3/bin:$PATH"'
 alias loadanaconda2='export PATH="$HOME/APP/anaconda2/bin:$PATH"'
 alias cat='ccat'
 alias g++='g++ -std=c++11'
-alias vim='nvim'
+#alias vim='nvim'
+alias la='ls -a'
+alias lc="colorls"
+alias ch="cd Hexo"
 
 
 #export NVM_DIR="$HOME/.nvm"
@@ -114,4 +131,33 @@ PERL_MM_OPT="INSTALL_BASE=/home/lzjqsdd/perl5"; export PERL_MM_OPT;
 #chmod +x ~/.vocab
 #~/.vocab
 #
-echo "$(toilet -f term --metal Hello,$USER! Have a nice day!)"
+echo "$(toilet -f term --gay   Hello,$USER! Have a nice day!  )"
+#loadanaconda3
+
+# Load the oh-my-zsh's library.
+#source ~/.oh-my-zsh/antigen.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+[ -f ~/.tmuxinator.zsh ] && source ~/.tmuxinator.zsh
+
+export EDITOR="vim"
+
+
+#powerline-shell
+#function powerline_precmd() {
+#    PS1="$(powerline-shell --shell zsh $?)"
+#}
+#
+#function install_powerline_precmd() {
+#    for s in "${precmd_functions[@]}"; do
+#        if [ "$s" = "powerline_precmd" ]; then
+#            return
+#        fi
+#    done
+#    precmd_functions+=(powerline_precmd)
+#}
+#
+#if [ "$TERM" != "linux" ]; then
+#    install_powerline_precmd
+#fi

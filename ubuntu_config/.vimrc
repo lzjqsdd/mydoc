@@ -155,11 +155,13 @@ if $COLORTERM == 'gnome-terminal'
 endif
 
 try
-    colorscheme desert
+    colorscheme dracula
 catch
 endtry
 
 set background=dark
+"let g:molokai_original = 1
+"let g:rehash256 = 1
 
 " Set extra options when running in GUI mode
 if has("gui_running")
@@ -423,6 +425,15 @@ call plug#begin('~/.vim/plugged')
     Plug 'majutsushi/tagbar'
     Plug 'easymotion/vim-easymotion'
     Plug 'bling/vim-bufferline'
+    Plug 'SirVer/ultisnips'
+    Plug 'honza/vim-snippets'
+    Plug 'vim-scripts/TaskList.vim'
+    Plug 'junegunn/goyo.vim'
+    Plug 'kshenoy/vim-signature'
+    Plug 'mbbill/undotree'
+    Plug 'Yggdroot/indentLine'
+    Plug 'ctrlpvim/ctrlp.vim'
+
 call plug#end()
 
 
@@ -568,9 +579,64 @@ let g:ycm_global_ycm_extra_conf='~/.vim/.ycm_extra_conf.py'
 
 "tagbar
 nmap <F9> :TagbarToggle<CR>
-" 启动时自动focus
-let g:tagbar_autofocus = 1
 
+"nerdfont
+nmap <F2> :NERDTreeToggle<CR>
+
+"undo tree
+nmap <F3> :UndotreeToggle<CR>
+
+"Goyo mode
+map <Leader>W :Goyo<CR>
+
+" 启动时自动focus
+let g:tagbar_autofocus = 1 
+
+"------------------------------------------------start-----------------------------------------------
 "easymotion
 map <Leader><leader>h <Plug>(easymotion-linebackward)
 map <Leader><leader>l <Plug>(easymotion-lineforward)
+"-------------------------------------------------end------------------------------------------------
+
+
+
+
+""------------------------------------------------start-----------------------------------------------
+""ultisnips setting
+"" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+"let g:UltiSnipsExpandTrigger="<leader-tab>"
+"let g:UltiSnipsJumpForwardTrigger="<c-b>"
+"let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+"" If you want :UltiSnipsEdit to split your window.
+"let g:UltiSnipsEditSplit="vertical"
+""-------------------------------------------------end------------------------------------------------
+
+
+map <leader>td <Plug>TaskList
+
+"Undo tree
+if has("persistent_undo")
+    set undodir=~/.vim_undodir/
+    set undofile
+endif
+
+"indent
+"" Vim
+"let g:indentLine_setColors = 0
+"let g:indentLine_char = '┆'
+
+
+"CtrlP
+let g:ctrlp_map = '<leader>p'
+let g:ctrlp_cmd = 'CtrlP'
+map <leader>f :CtrlPMRU<CR>
+let g:ctrlp_custom_ignore = {
+    \ 'dir':  '\v[\/]\.(git|hg|svn|rvm)$',
+    \ 'file': '\v\.(exe|so|dll|zip|tar|tar.gz|pyc)$',
+    \ }
+let g:ctrlp_working_path_mode=0
+let g:ctrlp_match_window_bottom=1
+let g:ctrlp_max_height=15
+let g:ctrlp_match_window_reversed=0
+let g:ctrlp_mruf_max=500
+let g:ctrlp_follow_symlinks=1

@@ -66,7 +66,7 @@ POWERLEVEL9K_DIR_DEFAULT_FOREGROUND="white"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git ruby)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -110,7 +110,7 @@ alias loadanaconda3='export PATH="$HOME/APP/anaconda3/bin:$PATH"'
 alias loadanaconda2='export PATH="$HOME/APP/anaconda2/bin:$PATH"'
 alias cat='ccat'
 alias g++='g++ -std=c++11'
-#alias vim='nvim'
+alias vim='/usr/local/vim/bin/vim'
 alias la='ls -a'
 alias lc="colorls"
 alias ch="cd Hexo"
@@ -161,3 +161,51 @@ export EDITOR="vim"
 #if [ "$TERM" != "linux" ]; then
 #    install_powerline_precmd
 #fi
+
+#rubygem
+PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
+
+#add user local bin
+PATH="~/.local/bin:$PATH"
+
+#just for fun
+function fbi() {
+    _COLUMNS=$(tput cols)
+    _MESSAGE=" FBI Warining "
+    y=$(( ( $_COLUMNS - ${#_MESSAGE} )  / 2 ))
+    spaces=$(printf "%-${y}s" " ")
+
+    echo " "
+    echo -e "${spaces}\033[41;37;5m FBI WARNING \033[0m"
+    echo " "
+    _COLUMNS=$(tput cols)
+    _MESSAGE="Ferderal Law provides severe civil and criminal penalties for"
+    y=$(( ( $_COLUMNS - ${#_MESSAGE} )  / 2 ))
+    spaces=$(printf "%-${y}s" " ")
+    echo -e "${spaces}${_MESSAGE}"
+
+    _COLUMNS=$(tput cols)
+    _MESSAGE="the unauthorized reproduction, distribution, or exhibition of"
+    y=$(( ( $_COLUMNS - ${#_MESSAGE} )  / 2 ))
+    spaces=$(printf "%-${y}s" " ")
+    echo -e "${spaces}${_MESSAGE}"
+
+    _COLUMNS=$(tput cols)
+    _MESSAGE="copyrighted motion pictures (Title 17, United States Code,"
+    y=$(( ( $_COLUMNS - ${#_MESSAGE} )  / 2 ))
+    spaces=$(printf "%-${y}s" " ")
+    echo -e "${spaces}${_MESSAGE}"
+
+    _COLUMNS=$(tput cols)
+    _MESSAGE="Sections 501 and 508). The Federal Bureau of Investigation"
+    y=$(( ( $_COLUMNS - ${#_MESSAGE} )  / 2 ))
+    spaces=$(printf "%-${y}s" " ")
+    echo -e "${spaces}${_MESSAGE}"
+
+    _COLUMNS=$(tput cols)
+    _MESSAGE="investigates allegations of criminal copyright infringement"
+    y=$(( ( $_COLUMNS - ${#_MESSAGE} )  / 2 ))
+    spaces=$(printf "%-${y}s" " ")
+    echo -e "${spaces}${_MESSAGE}"
+}
+#fbi
